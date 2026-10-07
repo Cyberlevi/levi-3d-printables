@@ -48,3 +48,15 @@ Suggested credit: **“Levi / Cyberlevi — Levi 3D Printables, CC BY-NC-SA 4.0�
 ## Support the collection
 
 A star, a useful print report or a well-documented improvement helps this collection grow. Suggestions and photos are welcome in [Issues](https://github.com/Cyberlevi/levi-3d-printables/issues). Please read the short [contribution guide](CONTRIBUTING.md).
+
+### Optional Bitcoin support
+
+If you would like to support future designs, you can send **Bitcoin (BTC) on the Bitcoin main network** to this receiving address:
+
+```text
+bc1qnnfgdm6a9zn8e640lkh3uarr99fkntf6dh7q3c
+```
+
+<img src="docs/images/bitcoin-support-qr.png" alt="Bitcoin donation QR code for bc1qnnfgdm6a9zn8e640lkh3uarr99fkntf6dh7q3c" width="220">
+
+[Download the QR code](docs/images/bitcoin-support-qr.png). Contributions are voluntary; the model downloads remain free for noncommercial use under the stated license.

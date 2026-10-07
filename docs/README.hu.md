@@ -26,3 +26,15 @@ Ha kinyomtattad, az [Issues / Print feedback](https://github.com/Cyberlevi/levi-
 A modellek és a tervezőforrások **CC BY-NC-SA 4.0** licencűek: névfeltüntetéssel, nem üzleti célra használhatók; a megosztott átdolgozásra ugyanilyen licenc vonatkozik. [Magyar licencismertető](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.hu). A `tools/` általános segédprogramjaira külön MIT licenc vonatkozik.
 
 A tervek AI segítségével készültek; a közreműködés és az ellenőrzések leírása a [forrásjegyzékben](PROVENANCE.md) található.
+
+## Önkéntes Bitcoin-támogatás
+
+Ha szeretnéd támogatni az új tervek készítését, erre a **Bitcoin (BTC), Bitcoin-főhálózati fogadócímre** küldhetsz támogatást:
+
+```text
+bc1qnnfgdm6a9zn8e640lkh3uarr99fkntf6dh7q3c
+```
+
+<img src="images/bitcoin-support-qr.png" alt="Bitcoin-támogatási QR-kód" width="220">
+
+[QR-kód letöltése](images/bitcoin-support-qr.png). A támogatás önkéntes; a modellek továbbra is ingyenesen letölthetők a megadott, nem üzleti felhasználást engedő licenccel.
