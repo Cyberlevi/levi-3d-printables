@@ -1,0 +1,16 @@
+Levi 3D Printables — license scope
+
+Copyright (c) 2026 Levi / Cyberlevi, to the extent copyright applies.
+
+Except where a file states otherwise:
+- models/ (including geometry, model-specific Python design sources and renders),
+  documentation, catalog and other collection content are licensed under
+  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
+  Full text: licenses/CC-BY-NC-SA-4.0.txt
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+- tools/ contains reusable software under the MIT license.
+  Full text: licenses/MIT.txt
+
+Third-party fonts and software retain their own licenses. No font binaries or
+third-party library code are bundled. See docs/PROVENANCE.md.
+The licenses grant only rights that the contributor is entitled to grant.

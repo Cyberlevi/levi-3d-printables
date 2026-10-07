@@ -1,0 +1,185 @@
+{
+  "model": "long-neck-dino-keyring",
+  "version": "0.1.0",
+  "physical_print_verified": false,
+  "units": "millimetres",
+  "stl_reloaded_from_disk": {
+    "black-details.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 6006,
+      "triangles": 12000,
+      "connected_components": 3,
+      "bounds_mm": [
+        [
+          -4.147286891937256,
+          17.9069766998291,
+          41.13178253173828
+        ],
+        [
+          4.147286891937256,
+          21.69931983947754,
+          48.27519607543945
+        ]
+      ],
+      "dimensions_mm": [
+        8.294573783874512,
+        3.7923431396484375,
+        7.143413543701172
+      ],
+      "solid_volume_mm3": 9.587002631898661
+    },
+    "green-body.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 120055,
+      "triangles": 240110,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -9.844287872314453,
+          -27.547643661499023,
+          0.0
+        ],
+        [
+          9.844287872314453,
+          22.0930233001709,
+          50.0
+        ]
+      ],
+      "dimensions_mm": [
+        19.688575744628906,
+        49.64066696166992,
+        50.0
+      ],
+      "solid_volume_mm3": 7714.980279286887
+    },
+    "single-colour.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 101419,
+      "triangles": 202850,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -9.844287872314453,
+          -27.547643661499023,
+          0.0
+        ],
+        [
+          9.844287872314453,
+          22.0930233001709,
+          50.0
+        ]
+      ],
+      "dimensions_mm": [
+        19.688575744628906,
+        49.64066696166992,
+        50.0
+      ],
+      "solid_volume_mm3": 7774.287225480922
+    },
+    "white-eyes.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 2186,
+      "triangles": 4364,
+      "connected_components": 2,
+      "bounds_mm": [
+        [
+          -5.038759708404541,
+          15.62015438079834,
+          44.76744079589844
+        ],
+        [
+          5.038759708404541,
+          18.89715003967285,
+          49.031005859375
+        ]
+      ],
+      "dimensions_mm": [
+        10.077519416809082,
+        3.2769956588745117,
+        4.2635650634765625
+      ],
+      "solid_volume_mm3": 49.76909152529587
+    }
+  },
+  "packaged_3mf_meshes": {
+    "Green body": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 120055,
+      "triangles": 240110,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -9.844287872314453,
+          -27.547643661499023,
+          0.0
+        ],
+        [
+          9.844287872314453,
+          22.0930233001709,
+          50.0
+        ]
+      ],
+      "dimensions_mm": [
+        19.688575744628906,
+        49.64066696166992,
+        50.0
+      ],
+      "solid_volume_mm3": 7714.980279286887
+    },
+    "White eyes": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 2186,
+      "triangles": 4364,
+      "connected_components": 2,
+      "bounds_mm": [
+        [
+          -5.038759708404541,
+          15.62015438079834,
+          44.76744079589844
+        ],
+        [
+          5.038759708404541,
+          18.89715003967285,
+          49.031005859375
+        ]
+      ],
+      "dimensions_mm": [
+        10.077519416809082,
+        3.2769956588745117,
+        4.2635650634765625
+      ],
+      "solid_volume_mm3": 49.76909152529587
+    },
+    "Black face details": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 6006,
+      "triangles": 12000,
+      "connected_components": 3,
+      "bounds_mm": [
+        [
+          -4.147286891937256,
+          17.9069766998291,
+          41.13178253173828
+        ],
+        [
+          4.147286891937256,
+          21.69931983947754,
+          48.27519607543945
+        ]
+      ],
+      "dimensions_mm": [
+        8.294573783874512,
+        3.7923431396484375,
+        7.143413543701172
+      ],
+      "solid_volume_mm3": 9.587002631898661
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Geometry versions used to generate and verify the published model (Python 3.14).
+numpy==2.5.3
+scipy==1.18.1
+trimesh==5.1.1
+shapely==2.1.2
+matplotlib==3.11.2
+mapbox_earcut==2.1.0
+manifold3d==3.5.4

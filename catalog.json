@@ -1,0 +1,38 @@
+{
+  "collection": "Levi 3D Printables",
+  "version": "0.1.0",
+  "creator": "Levi / Cyberlevi",
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": "https://github.com/Cyberlevi/levi-3d-printables",
+  "models": [
+    {
+      "id": "backstage-pick",
+      "name": "BACKSTAGE — Lightning Pick",
+      "folder": "models/backstage-pick",
+      "category": "Signs and decor",
+      "status": "experimental",
+      "physical_print_verified": false,
+      "dimensions_xyz_mm": [240, 250, 4.2],
+      "preview_type": "CAD render",
+      "parts": [
+        {"file": "black-base.stl", "label": "Black base", "colour": "#202024FF"},
+        {"file": "white-detail.stl", "label": "White lettering and lightning", "colour": "#F0F0F0FF"}
+      ]
+    },
+    {
+      "id": "long-neck-dino-keyring",
+      "name": "Long-Neck Dino — Keyring",
+      "folder": "models/long-neck-dino-keyring",
+      "category": "Keyrings and figures",
+      "status": "experimental",
+      "physical_print_verified": false,
+      "dimensions_xyz_mm": [19.689, 49.641, 50],
+      "preview_type": "CAD render with illustrative metal ring",
+      "parts": [
+        {"file": "green-body.stl", "label": "Green body", "colour": "#009639FF"},
+        {"file": "white-eyes.stl", "label": "White eyes", "colour": "#F0F0F0FF"},
+        {"file": "black-details.stl", "label": "Black face details", "colour": "#202024FF"}
+      ]
+    }
+  ]
+}

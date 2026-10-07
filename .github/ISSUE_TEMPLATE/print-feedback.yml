@@ -1,0 +1,49 @@
+name: Print feedback
+description: Share a successful print, a failed attempt, or a slicer issue.
+title: "[Print] Model name — short result"
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Model and version
+      placeholder: BACKSTAGE pick, v0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result
+      options:
+        - Successful print
+        - Partial or failed print
+        - Slicer issue
+    validations:
+      required: true
+  - type: input
+    id: printer
+    attributes:
+      label: Printer and nozzle size
+    validations:
+      required: true
+  - type: input
+    id: material
+    attributes:
+      label: Material and layer height
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Orientation, supports and changes
+      description: Include any scaling, edits, colour changes or unusual settings.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What worked or failed?
+    validations:
+      required: true
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos or slicer screenshots
+      description: Optional. Remove private information before uploading.
