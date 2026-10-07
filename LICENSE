@@ -2,15 +2,26 @@ Levi 3D Printables — license scope
 
 Copyright (c) 2026 Levi / Cyberlevi, to the extent copyright applies.
 
-Except where a file states otherwise:
-- models/ (including geometry, model-specific Python design sources and renders),
-  documentation, catalog and other collection content are licensed under
+License scope, except where a file states otherwise:
+- fan-art/ is an explicit exception to the collection's Creative Commons license.
+  It contains unofficial adaptations of third-party character or logo imagery.
+  Only rights in Levi / Cyberlevi's own contributions are offered under the
+  personal, noncommercial self-printing terms in fan-art/TERMS.md.
+  No rights in the underlying third-party material are granted or claimed.
+- models/ (including original geometry, model-specific Python design sources
+  and renders), documentation, catalog and other collection content outside
+  fan-art/ are licensed under
   Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.
   Full text: licenses/CC-BY-NC-SA-4.0.txt
   https://creativecommons.org/licenses/by-nc-sa/4.0/
+  The existing license grants for the original BACKSTAGE lightning pick sign
+  and long-neck dinosaur keyring remain unchanged. Third-party material is
+  excluded from this grant, including imagery shown or referenced in documents.
 - tools/ contains reusable software under the MIT license.
   Full text: licenses/MIT.txt
 
 Third-party fonts and software retain their own licenses. No font binaries or
 third-party library code are bundled. See docs/PROVENANCE.md.
 The licenses grant only rights that the contributor is entitled to grant.
+Nothing here restricts rights provided by GitHub's platform terms, applicable
+statutory exceptions, or licenses already granted.

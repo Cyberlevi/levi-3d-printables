@@ -5,6 +5,7 @@ Run from any directory with the model geometry requirements installed.
 SPDX-License-Identifier: MIT
 """
 from pathlib import Path
+import argparse
 import hashlib
 import json
 import zipfile
@@ -35,13 +36,15 @@ def package(entry):
     folder = ROOT / entry['folder']
     model = ET.Element('model', {'unit': 'millimeter', 'xmlns': NS})
     ET.SubElement(model, 'metadata', {'name': 'Title'}).text = entry['name']
-    ET.SubElement(model, 'metadata', {'name': 'Designer'}).text = 'Levi / Cyberlevi'
-    ET.SubElement(model, 'metadata', {'name': 'LicenseTerms'}).text = 'CC BY-NC-SA 4.0'
+    ET.SubElement(model, 'metadata', {'name': 'Designer'}).text = entry.get('design_credit', 'Levi / Cyberlevi')
+    ET.SubElement(model, 'metadata', {'name': 'LicenseTerms'}).text = entry['license']
+    if entry.get('rights_notice'):
+        ET.SubElement(model, 'metadata', {'name': 'Description'}).text = entry['rights_notice']
     resources = ET.SubElement(model, 'resources')
     materials = ET.SubElement(resources, 'basematerials', {'id': '1'})
     for part in entry['parts']:
         ET.SubElement(materials, 'base', {'name': part['label'], 'displaycolor': part['colour']})
-    report = {'model': entry['id'], 'version': '0.1.0', 'physical_print_verified': False,
+    report = {'model': entry['id'], 'version': entry['version'], 'physical_print_verified': False,
               'units': 'millimetres', 'stl_reloaded_from_disk': {}, 'packaged_3mf_meshes': {}}
     for file in sorted((folder / 'files').glob('*.stl')):
         report['stl_reloaded_from_disk'][file.name] = check(trimesh.load(file, force='mesh'))
@@ -80,9 +83,16 @@ def package(entry):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--model', action='append', help='Rebuild only this model ID; repeat for several.')
+    args = parser.parse_args()
     catalog = json.loads((ROOT / 'catalog.json').read_text())
+    known = {entry['id'] for entry in catalog['models']}
+    if args.model and set(args.model) - known:
+        parser.error('Unknown model ID: ' + ', '.join(sorted(set(args.model) - known)))
     for entry in catalog['models']:
-        package(entry)
+        if not args.model or entry['id'] in args.model:
+            package(entry)
     files = sorted(p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.parts
                    and '__pycache__' not in p.parts and p.name != 'SHA256SUMS')
     (ROOT / 'SHA256SUMS').write_text(''.join(

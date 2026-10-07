@@ -1,10 +1,86 @@
 {
   "collection": "Levi 3D Printables",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "creator": "Levi / Cyberlevi",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "Mixed: original models CC-BY-NC-SA-4.0; fan art personal printing terms; tools MIT",
   "repository": "https://github.com/Cyberlevi/levi-3d-printables",
   "models": [
+    {
+      "id": "eddie-backstage",
+      "name": "Eddie BACKSTAGE — Fan-Art Pick Sign",
+      "folder": "fan-art/eddie-backstage",
+      "category": "Fan art / Signs and decor",
+      "version": "0.2.0",
+      "status": "experimental",
+      "physical_print_verified": false,
+      "dimensions_xyz_mm": [
+        213.75921630859375,
+        249.96995544433594,
+        3.5999999046325684
+      ],
+      "base_thickness_mm": 3,
+      "raised_detail_mm": 0.6,
+      "mounting_holes": {
+        "count": 2,
+        "nominal_diameter_mm": 5,
+        "centre_spacing_mm": 182.43243243243242
+      },
+      "preview_type": "CAD render",
+      "license": "Personal, noncommercial self-printing only; own contributions only. See fan-art/TERMS.md.",
+      "license_file": "fan-art/TERMS.md",
+      "design_credit": "3D adaptation and print preparation: Levi / Cyberlevi, with AI assistance. Underlying imagery belongs to its respective rights holders.",
+      "rights_notice": "Iron Maiden / Eddie character imagery; unofficial fan art, no affiliation or endorsement. Personal printing permission covers only rights in our original contributions, not third-party rights.",
+      "parts": [
+        {
+          "file": "black-base.stl",
+          "label": "Black base",
+          "colour": "#202024FF"
+        },
+        {
+          "file": "white-detail.stl",
+          "label": "White raised detail",
+          "colour": "#F0F0F0FF"
+        }
+      ]
+    },
+    {
+      "id": "metallica-wall-sign",
+      "name": "Metallica — Fan-Art Wall Sign",
+      "folder": "fan-art/metallica-wall-sign",
+      "category": "Fan art / Signs and decor",
+      "version": "0.2.0",
+      "status": "experimental",
+      "physical_print_verified": false,
+      "dimensions_xyz_mm": [
+        199.99954986572266,
+        75.4455337524414,
+        4.0
+      ],
+      "base_thickness_mm": 3,
+      "raised_detail_mm": 1,
+      "mounting_holes": {
+        "count": 2,
+        "nominal_diameter_mm": 4,
+        "centre_spacing_mm": 60
+      },
+      "preview_type": "CAD render",
+      "license": "Personal, noncommercial self-printing only; own contributions only. See fan-art/TERMS.md.",
+      "license_file": "fan-art/TERMS.md",
+      "design_credit": "3D adaptation and print preparation: Levi / Cyberlevi, with AI assistance. Underlying imagery belongs to its respective rights holders.",
+      "rights_notice": "Metallica name and logo imagery; unofficial fan art, no affiliation or endorsement. Personal printing permission covers only rights in our original contributions, not third-party rights.",
+      "parts": [
+        {
+          "file": "black-base.stl",
+          "label": "Black base",
+          "colour": "#202024FF"
+        },
+        {
+          "file": "white-detail.stl",
+          "label": "White raised detail",
+          "colour": "#F0F0F0FF"
+        }
+      ]
+    },
     {
       "id": "backstage-pick",
       "name": "BACKSTAGE — Lightning Pick",
@@ -12,12 +88,26 @@
       "category": "Signs and decor",
       "status": "experimental",
       "physical_print_verified": false,
-      "dimensions_xyz_mm": [240, 250, 4.2],
+      "dimensions_xyz_mm": [
+        240,
+        250,
+        4.2
+      ],
       "preview_type": "CAD render",
       "parts": [
-        {"file": "black-base.stl", "label": "Black base", "colour": "#202024FF"},
-        {"file": "white-detail.stl", "label": "White lettering and lightning", "colour": "#F0F0F0FF"}
-      ]
+        {
+          "file": "black-base.stl",
+          "label": "Black base",
+          "colour": "#202024FF"
+        },
+        {
+          "file": "white-detail.stl",
+          "label": "White lettering and lightning",
+          "colour": "#F0F0F0FF"
+        }
+      ],
+      "license": "CC BY-NC-SA 4.0",
+      "version": "0.1.0"
     },
     {
       "id": "long-neck-dino-keyring",
@@ -26,13 +116,31 @@
       "category": "Keyrings and figures",
       "status": "experimental",
       "physical_print_verified": false,
-      "dimensions_xyz_mm": [19.689, 49.641, 50],
+      "dimensions_xyz_mm": [
+        19.689,
+        49.641,
+        50
+      ],
       "preview_type": "CAD render with illustrative metal ring",
       "parts": [
-        {"file": "green-body.stl", "label": "Green body", "colour": "#009639FF"},
-        {"file": "white-eyes.stl", "label": "White eyes", "colour": "#F0F0F0FF"},
-        {"file": "black-details.stl", "label": "Black face details", "colour": "#202024FF"}
-      ]
+        {
+          "file": "green-body.stl",
+          "label": "Green body",
+          "colour": "#009639FF"
+        },
+        {
+          "file": "white-eyes.stl",
+          "label": "White eyes",
+          "colour": "#F0F0F0FF"
+        },
+        {
+          "file": "black-details.stl",
+          "label": "Black face details",
+          "colour": "#202024FF"
+        }
+      ],
+      "license": "CC BY-NC-SA 4.0",
+      "version": "0.1.0"
     }
   ]
 }

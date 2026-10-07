@@ -1,0 +1,135 @@
+{
+  "model": "eddie-backstage",
+  "version": "0.2.0",
+  "physical_print_verified": false,
+  "units": "millimetres",
+  "stl_reloaded_from_disk": {
+    "black-base.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 660,
+      "triangles": 1324,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -106.87960815429688,
+          -124.9940185546875,
+          0.0
+        ],
+        [
+          106.87960815429688,
+          124.97593688964844,
+          3.0
+        ]
+      ],
+      "dimensions_mm": [
+        213.75921630859375,
+        249.96995544433594,
+        3.0
+      ],
+      "solid_volume_mm3": 102405.1772525918
+    },
+    "single-colour.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 32030,
+      "triangles": 64064,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -106.87960815429688,
+          -124.9940185546875,
+          0.0
+        ],
+        [
+          106.87960815429688,
+          124.97593688964844,
+          3.5999999046325684
+        ]
+      ],
+      "dimensions_mm": [
+        213.75921630859375,
+        249.96995544433594,
+        3.5999999046325684
+      ],
+      "solid_volume_mm3": 108808.95589727977
+    },
+    "white-detail.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 31370,
+      "triangles": 62608,
+      "connected_components": 57,
+      "bounds_mm": [
+        [
+          -83.73422241210938,
+          -105.9582290649414,
+          3.0
+        ],
+        [
+          85.37699127197266,
+          123.36199951171875,
+          3.5999999046325684
+        ]
+      ],
+      "dimensions_mm": [
+        169.11121368408203,
+        229.32022857666016,
+        0.5999999046325684
+      ],
+      "solid_volume_mm3": 6403.77864468798
+    }
+  },
+  "packaged_3mf_meshes": {
+    "Black base": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 660,
+      "triangles": 1324,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -106.87960815429688,
+          -124.9940185546875,
+          0.0
+        ],
+        [
+          106.87960815429688,
+          124.97593688964844,
+          3.0
+        ]
+      ],
+      "dimensions_mm": [
+        213.75921630859375,
+        249.96995544433594,
+        3.0
+      ],
+      "solid_volume_mm3": 102405.1772525918
+    },
+    "White raised detail": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 31370,
+      "triangles": 62608,
+      "connected_components": 57,
+      "bounds_mm": [
+        [
+          -83.73422241210938,
+          -105.9582290649414,
+          3.0
+        ],
+        [
+          85.37699127197266,
+          123.36199951171875,
+          3.5999999046325684
+        ]
+      ],
+      "dimensions_mm": [
+        169.11121368408203,
+        229.32022857666016,
+        0.5999999046325684
+      ],
+      "solid_volume_mm3": 6403.77864468798
+    }
+  }
+}
