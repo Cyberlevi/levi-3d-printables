@@ -4,14 +4,15 @@ Saját tervek és nem hivatalos zenei rajongói modellek, letölthető fájlokka
 
 **[Modellek és képek](../README.md#the-collection) · [Teljes gyűjtemény letöltése](https://github.com/Cyberlevi/levi-3d-printables/archive/refs/heads/main.zip)**
 
-## Kísérleti kiadás: v0.2.0
+## Kísérleti kiadás: v0.3.0
 
+- **[Pöttyös cica – pufi mancsok és körbetekeredő farok](../models/spotted-cat):** saját fekete-fehér figura, 84,01 × 88,31 × 140 mm. Takarékos PLA-beállítás: 104 g és 6 óra 56 perc szeletelői becslés. [3MF letöltése](../models/spotted-cat/files/spotted-cat.3mf), [beállítások és nyomtatási útmutató](../models/spotted-cat).
 - **[Eddie BACKSTAGE ajtódísz](../fan-art/eddie-backstage):** nem hivatalos rajongói modell; 213,759 × 249,970 × 3,6 mm, két 5 mm-es furattal, 182,432 mm-es tengelytávolsággal. [3MF letöltése](../fan-art/eddie-backstage/files/eddie-backstage.3mf).
 - **[Metallica falidísz](../fan-art/metallica-wall-sign):** nem hivatalos rajongói modell; 200 × 75,446 × 4 mm, két 4 mm-es furattal, 60 mm-es tengelytávolsággal. [3MF letöltése](../fan-art/metallica-wall-sign/files/metallica-wall-sign.3mf).
 - **[BACKSTAGE pengető alakú ajtódísz](../models/backstage-pick):** fekete alap, fehér felirat és villám; 240 × 250 × 4,2 mm, két 5 mm-es akasztófurattal.
 - **[Hosszú nyakú dinó kulcstartó](../models/long-neck-dino-keyring):** zöld test, fehér szem, fekete részletek; 5 cm magas. A fémkarika külön kellék.
 
-Mind a négy terv kísérleti: a digitális fájlokat ellenőriztük, de egyikhez sem igazoltunk sikeres fizikai próbanyomatot. A képek a tényleges geometriából készített számítógépes látványképek.
+Mind az öt terv kísérleti: a digitális fájlokat ellenőriztük, de befejezett, sikeres fizikai próbanyomatot még nem igazoltunk. A cica első PLA-nyomtatása a közzétételkor, 2026. október 8-án folyamatban volt. A képek a tényleges geometriából készített számítógépes látványképek.
 
 ## Használat
 
@@ -23,11 +24,13 @@ Az eredeti, villámos BACKSTAGE dísz fehér felülete 3,6 mm-nél kezdődik. A 
 
 A dinó álló helyzetű. A nyak, áll, has és a karikafurat támaszigényét rétegenként nézd át. Támaszeltávolítás után ellenőrizd a nyakat és a fület. Dísznek készült, a tartóssága és gyerekjátékként való biztonságossága nincs igazolva.
 
+A cica álló helyzetben, a sík talpán nyomtatható; a két szín alkatrészeit együtt importáld. Az ECO-változat 0,16 mm-es réteggel, 2 fallal és 8% gyroid kitöltéssel készült, automatikus fatámasszal és tisztítótoronnyal. A 104,08 g / 6 óra 55 perc 58 másodperc szeletelői becslés, nem mért fogyasztás; a kész figura felülete és tartóssága még ellenőrzésre vár. A részletes adatokat a modelloldal tartalmazza.
+
 ## Visszajelzés és licenc
 
 Ha kinyomtattad, az [Issues / Print feedback](https://github.com/Cyberlevi/levi-3d-printables/issues/new/choose) űrlapon megadhatod a nyomtatót, anyagot, rétegmagasságot és tapasztalatot; fényképet is csatolhatsz.
 
-A `models/` mappában lévő eredeti villámos BACKSTAGE dísz és dinó, valamint tervezőforrásaik továbbra is **CC BY-NC-SA 4.0** licencűek: névfeltüntetéssel, nem üzleti célra használhatók; a megosztott átdolgozásra ugyanilyen licenc vonatkozik. [Magyar licencismertető](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.hu).
+A `models/` mappában lévő eredeti villámos BACKSTAGE dísz, dinó és pöttyös cica, valamint tervezőforrásaik továbbra is **CC BY-NC-SA 4.0** licencűek: névfeltüntetéssel, nem üzleti célra használhatók; a megosztott átdolgozásra ugyanilyen licenc vonatkozik. [Magyar licencismertető](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.hu).
 
 A `fan-art/` mappában lévő Eddie és Metallica modellekre külön [személyes nyomtatási feltételek](../fan-art/TERMS.md) vonatkoznak. A saját közreműködésünkhöz kapcsolódó, általunk átengedhető jogok körében a fájlokat letöltheted, előkészítheted és magadnak, nem üzleti célra kinyomtathatod. Fájlok vagy nyomatok értékesítésére, fizetős nyomtatásra és más üzleti felhasználásra nem adunk engedélyt. Eddie figurája, a Metallica logó és az alapul szolgáló grafika nem a mi eredeti alkotásunk; harmadik felek jogait nem ruházzuk át, és hivatalos kapcsolatot vagy jóváhagyást nem állítunk. A saját célú vagy nem üzleti használat önmagában nem rendezi ezeket a jogokat.
 

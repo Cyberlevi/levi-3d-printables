@@ -1,10 +1,54 @@
 {
   "collection": "Levi 3D Printables",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "creator": "Levi / Cyberlevi",
   "license": "Mixed: original models CC-BY-NC-SA-4.0; fan art personal printing terms; tools MIT",
   "repository": "https://github.com/Cyberlevi/levi-3d-printables",
   "models": [
+    {
+      "id": "spotted-cat",
+      "name": "Spotted Cat — Pöttyös cica",
+      "folder": "models/spotted-cat",
+      "category": "Keyrings and figures",
+      "version": "0.3.0",
+      "design_revision": "V3",
+      "print_profile": "ECO",
+      "status": "first_print_in_progress",
+      "status_as_of": "2026-10-08",
+      "physical_print_verified": false,
+      "dimensions_xyz_mm": [
+        84.01320266723633,
+        88.30524063110352,
+        140.0
+      ],
+      "preview_type": "CAD render of distributed geometry",
+      "license": "CC BY-NC-SA 4.0",
+      "design_credit": "Levi / Cyberlevi, with AI assistance",
+      "parts": [
+        {
+          "file": "white-body.stl",
+          "label": "White body",
+          "colour": "#EFF0F1FF"
+        },
+        {
+          "file": "black-details.stl",
+          "label": "Black spots, face and tail tip",
+          "colour": "#212721FF"
+        }
+      ],
+      "print_estimate": {
+        "printer": "Anycubic Kobra X",
+        "material": "PLA",
+        "profile": "ECO",
+        "layer_height_mm": 0.16,
+        "wall_loops": 2,
+        "infill": "8% gyroid",
+        "total_filament_g": 104.08,
+        "time_seconds": 24958,
+        "physical_consumption_measured": false,
+        "firmware_internal_purge_independently_quantified": false
+      }
+    },
     {
       "id": "eddie-backstage",
       "name": "Eddie BACKSTAGE — Fan-Art Pick Sign",

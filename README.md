@@ -6,12 +6,16 @@ Original designs and unofficial music fan art for personal 3D printing.
 
 STL parts, geometry-only 3MF assemblies and practical print notes. Editable design sources are included for the original models; fan-art models are supplied as meshes. Check each model's terms before use.
 
-> **Experimental collection · v0.2.0**
-> These files have digital geometry checks, but none of the four models has a verified successful physical print yet. All preview images are CAD renders, not photographs of printed objects.
+> **Experimental collection · v0.3.0**
+> These files have digital geometry checks; successful completed physical prints remain unverified. The Spotted Cat's first PLA print was in progress at publication on 8 October 2026. All preview images are CAD renders, not photographs of printed objects.
 
 ## The collection
 
 <table>
+<tr>
+<td width="50%"><a href="models/spotted-cat"><img src="models/spotted-cat/images/preview.png" alt="CAD render of a seated white spotted cat with black details, plump paws and a rounded curled tail" width="440"></a></td>
+<td width="50%"><b><a href="models/spotted-cat">Spotted Cat · Pöttyös cica</a></b><br>Original design · CC BY-NC-SA 4.0<br>A gently smiling cat with plump paws, a wrapped tail and a heart-shaped spot.<br>84.01 × 88.31 × 140 mm · black and white PLA<br>Economy setup: 104 g / 6 h 56 min estimated<br>First print in progress at publication; completion unverified.<br><a href="models/spotted-cat/files/spotted-cat.3mf">Download 3MF</a> · <a href="models/spotted-cat">Print guide and STL files</a></td>
+</tr>
 <tr>
 <td width="50%"><a href="fan-art/eddie-backstage"><img src="fan-art/eddie-backstage/images/preview.png" alt="CAD render of the unofficial Eddie BACKSTAGE fan-art sign in black and white" width="440"></a></td>
 <td width="50%"><a href="fan-art/metallica-wall-sign"><img src="fan-art/metallica-wall-sign/images/preview.png" alt="CAD render of the unofficial Metallica logo wall sign in black and white" width="440"></a></td>
@@ -43,9 +47,9 @@ STL files use millimetres and do not store colours. Import colour parts together
 
 ## What's included
 
-Each model folder contains `files/`, `images/`, a print guide and `validation.json`. The two original models in `models/` also include editable `source/`; the two fan-art models in `fan-art/` are mesh-only releases. The [catalog](catalog.json) records dimensions, terms and test status; [SHA256SUMS](SHA256SUMS) lets you verify the files. Changes are recorded in the [changelog](CHANGELOG.md).
+Each model folder contains `files/`, `images/`, a print guide and `validation.json`. The three original models in `models/` also include editable `source/`; the two fan-art models in `fan-art/` are mesh-only releases. The [catalog](catalog.json) records dimensions, terms and test status; [SHA256SUMS](SHA256SUMS) lets you verify the files. Changes are recorded in the [changelog](CHANGELOG.md).
 
-**Design provenance:** modeling and print preparation by Levi / [Cyberlevi](https://github.com/Cyberlevi), with AI assistance. The original BACKSTAGE lightning sign uses a pick/lightning layout and DejaVu lettering; the dinosaur is procedural geometry. The Eddie sign was traced from an AI-generated concept selected by the maintainer. The Metallica sign was traced from an SVG on Metallica's official website. Eddie and the Metallica logo are not our original characters or artwork. See [provenance](docs/PROVENANCE.md) for the sources and checks.
+**Design provenance:** modeling and print preparation by Levi / [Cyberlevi](https://github.com/Cyberlevi), with AI assistance. The original BACKSTAGE lightning sign uses a pick/lightning layout and DejaVu lettering; the dinosaur and spotted cat are procedural geometry. The Eddie sign was traced from an AI-generated concept selected by the maintainer. The Metallica sign was traced from an SVG on Metallica's official website. Eddie and the Metallica logo are not our original characters or artwork. See [provenance](docs/PROVENANCE.md) for the sources and checks.
 
 ## License
 

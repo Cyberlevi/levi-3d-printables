@@ -1,0 +1,197 @@
+{
+  "model": "spotted-cat",
+  "version": "0.3.0",
+  "physical_print_verified": false,
+  "units": "millimetres",
+  "stl_reloaded_from_disk": {
+    "black-details.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 13197,
+      "triangles": 26350,
+      "connected_components": 11,
+      "bounds_mm": [
+        [
+          -36.110679626464844,
+          -45.206336975097656,
+          0.11656641215085983
+        ],
+        [
+          35.762969970703125,
+          35.8432502746582,
+          140.0
+        ]
+      ],
+      "dimensions_mm": [
+        71.87364959716797,
+        81.04958724975586,
+        139.88343358784914
+      ],
+      "solid_volume_mm3": 10270.712844999629,
+      "degenerate_faces": 0,
+      "component_volumes_mm3": [
+        3301.764735151641,
+        2831.7615826691085,
+        864.6448905467665,
+        851.0943207601516,
+        836.3731270636314,
+        645.7772798467795,
+        461.27849968506234,
+        357.29202044272944,
+        60.71447360143234,
+        30.014924805758955,
+        29.996990426568868
+      ]
+    },
+    "single-colour.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 38869,
+      "triangles": 77746,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -37.51328659057617,
+          -45.206336975097656,
+          0.0
+        ],
+        [
+          46.499916076660156,
+          43.09890365600586,
+          140.0
+        ]
+      ],
+      "dimensions_mm": [
+        84.01320266723633,
+        88.30524063110352,
+        140.0
+      ],
+      "solid_volume_mm3": 344596.2021801374,
+      "degenerate_faces": 0,
+      "component_volumes_mm3": [
+        344596.2021801374
+      ]
+    },
+    "white-body.stl": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 41643,
+      "triangles": 83294,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -37.51328659057617,
+          -42.81074142456055,
+          0.0
+        ],
+        [
+          46.499916076660156,
+          43.09890365600586,
+          130.0175323486328
+        ]
+      ],
+      "dimensions_mm": [
+        84.01320266723633,
+        85.9096450805664,
+        130.0175323486328
+      ],
+      "solid_volume_mm3": 334325.4864409697,
+      "degenerate_faces": 0,
+      "component_volumes_mm3": [
+        334325.4864409697
+      ]
+    }
+  },
+  "packaged_3mf_meshes": {
+    "White body": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 41643,
+      "triangles": 83294,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -37.51328659057617,
+          -42.81074142456055,
+          0.0
+        ],
+        [
+          46.499916076660156,
+          43.09890365600586,
+          130.0175323486328
+        ]
+      ],
+      "dimensions_mm": [
+        84.01320266723633,
+        85.9096450805664,
+        130.0175323486328
+      ],
+      "solid_volume_mm3": 334325.4864409697
+    },
+    "Black spots, face and tail tip": {
+      "watertight": true,
+      "winding_consistent": true,
+      "vertices": 13197,
+      "triangles": 26350,
+      "connected_components": 11,
+      "bounds_mm": [
+        [
+          -36.110679626464844,
+          -45.206336975097656,
+          0.11656641215085983
+        ],
+        [
+          35.762969970703125,
+          35.8432502746582,
+          140.0
+        ]
+      ],
+      "dimensions_mm": [
+        71.87364959716797,
+        81.04958724975586,
+        139.88343358784914
+      ],
+      "solid_volume_mm3": 10270.712844999629
+    }
+  },
+  "design_revision": "V3",
+  "status": "first_print_in_progress",
+  "status_as_of": "2026-10-08",
+  "completion_verified": false,
+  "physical_consumption_measured": false,
+  "preview_type": "CAD renders of distributed geometry",
+  "stl_sha256": {
+    "white-body.stl": "5a593dbb6dafa1a988571be591d393c8327e851d388fdb05e15239031e0a2c5f",
+    "black-details.stl": "9c3d46029b626210539477caee46ef11246895a70480f492e1cb21efb648f8aa",
+    "single-colour.stl": "87fcddae42d3355d0abd52135d21a9fc0f6f33cb45e5cdf349930f3b94fbbbd9"
+  },
+  "source_geometry_unchanged": true,
+  "geometry_partition": {
+    "overlap_volume_mm3": 1.9503306305027057e-14,
+    "union_difference_from_single_colour_mm3": 0.0029075375059619546,
+    "nominal_surface_detail_depth_mm": 1.6238970609155092
+  },
+  "packaged_3mf": {
+    "file": "files/spotted-cat.3mf",
+    "sha256": "c5734e8eb5f21930ce595e32eec97158ba36829ddb9fbf103a4b15264ecbd834",
+    "package_crc_valid": true,
+    "standard_core_namespace": "http://schemas.microsoft.com/3dmanufacturing/core/2015/02",
+    "unit": "millimeter",
+    "mesh_object_count": 2,
+    "assembly_component_count": 2,
+    "build_item_count": 1,
+    "colours": [
+      "#EFF0F1FF",
+      "#212721FF"
+    ],
+    "mesh_arrays_identical_to_stl": true,
+    "geometry_and_display_colours_only": true,
+    "contains_sliced_gcode": false,
+    "contains_printer_configuration": false,
+    "members": [
+      "3D/3dmodel.model",
+      "[Content_Types].xml",
+      "_rels/.rels"
+    ]
+  }
+}

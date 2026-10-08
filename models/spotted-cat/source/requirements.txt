@@ -1,0 +1,8 @@
+# Geometry generation and software rendering; verified using Python 3.14.7.
+numpy==2.5.3
+scipy==1.18.1
+scikit-image==0.26.0
+trimesh==5.1.1
+manifold3d==3.5.4
+Pillow==12.3.0
+# Optional accelerated rendering: install pyrender separately if EGL/OSMesa is available.

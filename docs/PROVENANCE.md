@@ -4,7 +4,15 @@ Maintainer: Levi / Cyberlevi. First public collection: 7 October 2026.
 
 The collection contains original designs and separately identified unofficial fan art. Modeling and print preparation were carried out for the maintainer's requests with AI assistance for modeling code, design iteration, renders and documentation. Editable geometry generators are included only for the original models in `models/`. The fan-art releases in `fan-art/` contain finished meshes, not editable design sources. No printer access code, private project paths or sliced jobs are included.
 
-Version 0.2.0 is experimental. None of the four models has a verified successful physical print.
+Version 0.3.0 is experimental. Successful completed physical prints remain unverified. The Spotted Cat's first print was in progress on 8 October 2026 at publication.
+
+## Original spotted cat
+
+A generic seated cat developed for the maintainer from an AI-generated visual concept, then rebuilt as editable procedural geometry. The selected V3 sculpture has rounded forearms and paws, a wrapped tail with a distinct rounded black tip, closed smiling eyes and a heart-shaped flank spot. It is not a trace of a third-party character. Modeling, design iteration and documentation were completed by Levi / Cyberlevi with AI assistance.
+
+The published STL files are the same validated V3 geometry used for the first print: 84.013 × 88.305 × 140 mm. White and black parts are complementary closed volumes in shared coordinates. The separate single-colour file contains the entire connected sculpture. The preview is rendered from the actual mesh. Model-specific source is included under the original models' CC BY-NC-SA 4.0 terms.
+
+The first Anycubic Kobra X PLA print was started on 8 October 2026 using the ECO setup (0.16 mm layers, 2 walls, 8% gyroid). Active printing was verified from printer telemetry; completion, support removal, colour fidelity and durability have not been verified. The 104.08 g / 6 h 55 min 58 s estimates come from the slicer and do not independently quantify firmware-internal purge consumption. Public files contain geometry and documented settings, without machine-specific executable G-code or printer access details.
 
 ## Eddie BACKSTAGE fan-art sign
 

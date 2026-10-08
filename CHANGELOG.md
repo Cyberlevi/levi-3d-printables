@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — 2026-10-08
+
+- Added the original Spotted Cat V3: black/white STL parts, single-colour STL, a geometry-only 3MF assembly, actual CAD previews and editable sources.
+- Added the 140 mm ECO PLA print setup (104.08 g and 6 h 55 min 58 s slicer estimates), English/Hungarian model notes and digital validation.
+- Updated the gallery and catalog. First cat print in progress at publication; successful physical completion remains unverified.
+- Preserved all existing models, their licenses and the collection support information.
+
 ## 0.2.0 — 2026-10-07
 
 - Added Eddie BACKSTAGE and Metallica wall-sign fan-art models, with black/white STL parts, geometry-only 3MF assemblies, CAD previews and print notes. These are mesh-only releases.

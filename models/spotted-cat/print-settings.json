@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "model": "spotted-cat",
+  "version": "0.3.0",
+  "design_revision": "V3",
+  "profile_name": "ECO",
+  "status": {
+    "as_of": "2026-10-08",
+    "first_print": "in_progress",
+    "completion_verified": false,
+    "physical_print_verified": false,
+    "physical_consumption_measured": false
+  },
+  "scope": "Portable notes from the first ongoing print, not a ready-to-run printer preset.",
+  "first_run_printer": "Anycubic Kobra X",
+  "material": "PLA",
+  "colour_order": [
+    "white",
+    "black"
+  ],
+  "orientation": {
+    "upright": true,
+    "flat_base_z_mm": 0,
+    "front_axis": "negative Y",
+    "import_as_one_multipart_object": true,
+    "preserve_shared_part_coordinates": true
+  },
+  "geometry": {
+    "scale_percent": 100,
+    "dimensions_xyz_mm": [
+      84.01320266723633,
+      88.30524063110352,
+      140.0
+    ]
+  },
+  "quality": {
+    "layer_height_mm": 0.16,
+    "wall_loops": 2,
+    "infill_density_percent": 8,
+    "infill_pattern": "gyroid",
+    "top_solid_layers": 5,
+    "bottom_solid_layers": 4
+  },
+  "supports": {
+    "enabled": true,
+    "type": "tree",
+    "placement": "automatic",
+    "threshold_angle_degrees": 30,
+    "build_plate_only": false,
+    "placement_explanation": "Supports may start on the model as well as on the build plate.",
+    "top_contact_z_distance_mm": 0.16,
+    "bottom_contact_z_distance_mm": 0.16,
+    "object_xy_distance_mm": 0.35,
+    "filament_colour": "white",
+    "review_areas": [
+      "under the head",
+      "paws and forearms",
+      "wrapped tail"
+    ],
+    "removal_and_surface_finish_verified": false
+  },
+  "bed_adhesion": {
+    "brim_width_mm": 3.0,
+    "brim_object_gap_mm": 0.1
+  },
+  "first_run_purge_example": {
+    "filament_order": [
+      "white",
+      "black"
+    ],
+    "row_is_from_colour": true,
+    "column_is_to_colour": true,
+    "slicer_volume_matrix_mm3": [
+      [
+        0,
+        44
+      ],
+      [
+        168,
+        0
+      ]
+    ],
+    "firmware_internal_purge_independently_quantified": false,
+    "note": "First-run raw slicer matrix and multiplier, not measured or firmware-effective purge volumes. Recalibrate for your materials and machine.",
+    "slicer_flush_multiplier": 0.3
+  },
+  "slicer_estimate": {
+    "total_filament_g": 104.08,
+    "time_seconds": 24958,
+    "time_readable": "6 h 55 min 58 s",
+    "estimated_not_measured": true,
+    "scope_note": "Reported by the local ECO slice; actual duration and material use may differ."
+  },
+  "calibration_note": "Choose your own calibrated printer, PLA temperature, flow and cooling settings. Review supports, purge structures and the full layer preview.",
+  "included_printer_configuration": false,
+  "included_sliced_gcode": false
+}
